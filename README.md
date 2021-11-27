@@ -1,12 +1,12 @@
-* Skrypt co wysyła automatycznie webhook po zbanowaniu osoby na serwerze.
+Skrypt co wysyła automatycznie webhook po zbanowaniu osoby na serwerze.
 
-Potrzebne skrypty:
+* Potrzebne skrypty:
 ```
 - EasyAdmin
 ```
 
 
-Tutaj wklejacie swój webhook:
+* Tutaj wklejacie swój webhook:
 
 ```
 linijka: 10
@@ -14,7 +14,7 @@ local banroom = "https://discord.com/api/webhooks/914233832130113536/"
 ```
 
 
-Tutaj możecie zmienić trigger od waszego EasyAdmina/vMenu:
+* Tutaj możecie zmienić trigger od waszego EasyAdmina/vMenu:
 
 ```
 RegisterServerEvent("EasyAdmin:banPlayer")
